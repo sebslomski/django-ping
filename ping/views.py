@@ -1,6 +1,7 @@
+import json
+
 from django.http import HttpResponse
 from django.conf import settings
-from django.utils import simplejson
 from django.contrib.auth.decorators import login_required
 
 from ping.defaults import *
